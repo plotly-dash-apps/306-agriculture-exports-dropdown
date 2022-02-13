@@ -1,13 +1,10 @@
 # Getting Started with Plotly Dash
 
-#### Description
-Dash is a Python framework for building analytical web applications. Dash ties modern UI elements like dropdowns, sliders, and graphs to your Python code. In this class, participants will learn how to build a simple Dash application and deploy it online.
-
-# How to deploy a simple Plotly Dash app on Heroku
-* Take a moment to read this [Medium post about how to deploying this app](https://austinlasseter.medium.com/deploy-a-plotly-dash-app-on-heroku-4d2c3224230)
+You can view the finished app [here](https://agriculture-exports-map.herokuapp.com)
 
 
 ### Notes
+* Take a moment to read this [Medium post about how to deploying this app](https://austinlasseter.medium.com/deploy-a-plotly-dash-app-on-heroku-4d2c3224230)
 * The `assets` folder is designed to hold all of your static images. Then you can call them using the `get_asset_url` method, as follows:
 ```
 html.Img(src=app.get_asset_url(some_image.jpg)),
