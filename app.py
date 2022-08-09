@@ -1,6 +1,5 @@
 import dash
-import dash_core_components as dcc
-import dash_html_components as html
+from dash import dcc, html
 from dash.dependencies import Input, Output, State
 
 import plotly.graph_objs as go
@@ -41,7 +40,7 @@ app.layout = html.Div(children=[
                     value='corn'
                 ),
         ], className='two columns'),
-        html.Div([dcc.Graph(id='figure-cancan'),
+        html.Div([dcc.Graph(id='figure-1'),
             ], className='ten columns'),
     ], className='twelve columns'),
     html.A('Code on Github', href=githublink),
